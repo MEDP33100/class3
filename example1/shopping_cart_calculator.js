@@ -20,6 +20,7 @@ for (let i = 0; i < shoppingCart.length; i++) {
 
 
 if (totalPrice > 100) {
+    discount = totalPrice * .1;
 } else if (totalPrice > 50 && totalPrice < 100) {
     discount = totalPrice * .05;
 } else {
